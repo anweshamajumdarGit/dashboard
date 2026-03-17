@@ -1,0 +1,36 @@
+.navbar{
+ background:#2c3e50;
+ padding:12px;
+ color:white;
+}
+
+.nav-item{
+ margin-right:20px;
+ cursor:pointer;
+ color:white;
+ text-decoration:none;
+}
+
+.dropdown{
+ display:inline-block;
+ position:relative;
+}
+
+.dropdown-menu{
+ position:absolute;
+ background:white;
+ color:black;
+ padding:10px;
+ border:1px solid #ddd;
+}
+
+.dropdown-item{
+ display:block;
+ padding:5px 10px;
+ text-decoration:none;
+ color:black;
+}
+
+.dropdown-item:hover{
+ background:#f0f0f0;
+}

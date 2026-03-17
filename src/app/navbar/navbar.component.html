@@ -1,0 +1,30 @@
+<nav class="navbar">
+
+<a routerLink="/home" class="nav-item">
+Home
+</a>
+
+<div class="dropdown">
+
+<span class="nav-item"
+      (click)="toggleDropdown()">
+
+Dashboard ▼
+
+</span>
+
+<div *ngIf="showDropdown" class="dropdown-menu">
+
+<a routerLink="/dashboard/services" class="dropdown-item">
+Services
+</a>
+
+<a routerLink="/dashboard/apis" class="dropdown-item">
+APIs
+</a>
+
+</div>
+
+</div>
+
+</nav>

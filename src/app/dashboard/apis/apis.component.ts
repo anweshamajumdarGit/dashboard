@@ -1,0 +1,7 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-apis',
+  templateUrl: './apis.component.html'
+})
+export class ApisComponent { }

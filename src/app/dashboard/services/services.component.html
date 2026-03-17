@@ -1,0 +1,27 @@
+<h2>📊 Prometheus Metrics Dashboard</h2>
+
+<div *ngFor="let metric of (metricsMap | keyvalue)">
+
+  <div class="section">
+
+    <h3>{{metric.key}}</h3>
+
+    <table>
+
+      <tr>
+        <th>Metric</th>
+        <th>Value</th>
+      </tr>
+
+      <tr *ngFor="let item of metric.value">
+
+        <td>{{item.full}}</td>
+        <td>{{item.value}}</td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+</div>
